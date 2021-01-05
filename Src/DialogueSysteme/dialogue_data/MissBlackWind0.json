@@ -1,0 +1,14 @@
+{
+
+  "dialogue_1":
+{
+  "dialog_1" : {"name": "柳如意", "text": "干嘛，有事啊"},
+  "dialog_2" : {"name": "柳如意", "text": "没事别来烦我"},
+  "dialog_3" : {"name": "柳如意", "text": "去去去"},
+  "dialog_4" : {"name": "柳如意", "text": "寨子里活太少了吗？"},},
+
+  "with_pig":
+{
+  "dialog_1" : {"name": "柳如意", "text": "又来欺负寨子里的猪"},
+  "dialog_2" : {"name": "柳如意", "text": "快滚"},}
+}

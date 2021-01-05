@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Src/UISrc/DropDownMenu/DropMenuTheme.tres" type="Theme" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.419608, 0.384314, 0.384314, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.419608, 0.384314, 0.384314, 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="."]
+margin_left = 92.0
+margin_top = 32.0
+margin_right = 315.0
+margin_bottom = 72.0
+focus_mode = 0
+theme = ExtResource( 1 )
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 9 )
+custom_styles/normal = SubResource( 2 )
+custom_constants/arrow_margin = 20
+enabled_focus_mode = 0
+text = "Item 0"
+align = 1
+items = [ "Item 0", null, false, 0, null, "Item 1", null, false, 1, null, "Item 2", null, false, 2, null, "Item 3", null, false, 3, null ]
+selected = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}

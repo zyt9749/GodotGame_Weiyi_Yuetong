@@ -1,0 +1,33 @@
+[gd_resource type="Theme" load_steps=5 format=2]
+
+[sub_resource type="StreamTexture" id=3]
+
+[sub_resource type="StreamTexture" id=4]
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.298039, 0.360784, 0.686275, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+content_margin_top = 10.0
+content_margin_bottom = 10.0
+bg_color = Color( 0.168627, 0.168627, 0.168627, 1 )
+
+[resource]
+PopupMenu/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+PopupMenu/colors/font_color_accel = Color( 0.7, 0.7, 0.7, 0.8 )
+PopupMenu/colors/font_color_disabled = Color( 0.4, 0.4, 0.4, 0.8 )
+PopupMenu/colors/font_color_hover = Color( 0.88, 0.88, 0.88, 1 )
+PopupMenu/constants/hseparation = 0
+PopupMenu/constants/vseparation = 20
+PopupMenu/fonts/font = null
+PopupMenu/icons/checked = null
+PopupMenu/icons/radio_checked = SubResource( 3 )
+PopupMenu/icons/radio_unchecked = SubResource( 4 )
+PopupMenu/icons/submenu = null
+PopupMenu/icons/unchecked = null
+PopupMenu/styles/hover = SubResource( 5 )
+PopupMenu/styles/labeled_separator_left = null
+PopupMenu/styles/labeled_separator_right = null
+PopupMenu/styles/panel = SubResource( 8 )
+PopupMenu/styles/panel_disabled = null
+PopupMenu/styles/separator = null

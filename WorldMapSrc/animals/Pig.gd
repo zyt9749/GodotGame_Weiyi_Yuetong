@@ -28,8 +28,8 @@ var state = IDLE
 
 
 
-#func _ready():
-#	state = pick_random_state([IDLE,WANDER])
+func _ready():
+	$AniPig.frame = 0
 	
 func _physics_process(delta):
 	if keep_state == true:

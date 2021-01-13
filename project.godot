@@ -8,9 +8,14 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "PanelContainer",
+"class": "JsonDock",
+"language": "GDScript",
+"path": "res://addons/json_editor/json_dock.gd"
+} ]
 _global_script_class_icons={
-
+"JsonDock": ""
 }
 
 [application]
